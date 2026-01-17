@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84CD4DDE2F1AD1F800D47735 /* MultiScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CD4DF42F1AD1FA00D47735 /* MultiScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84CD4DFE2F1AD1FA00D47735 /* MultiScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4DDE2F1AD1F800D47735 /* ChargeIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4DF42F1AD1FA00D47735 /* ChargeItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD4DFE2F1AD1FA00D47735 /* ChargeItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		84CD4E062F1AD1FA00D47735 /* Exceptions for "MultiScreen" folder in "MultiScreen" target */ = {
+		84CD4E062F1AD1FA00D47735 /* Exceptions for "MultiScreen" folder in "ChargeIt" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 84CD4DDD2F1AD1F800D47735 /* MultiScreen */;
+			target = 84CD4DDD2F1AD1F800D47735 /* ChargeIt */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		84CD4DE02F1AD1F800D47735 /* MultiScreen */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				84CD4E062F1AD1FA00D47735 /* Exceptions for "MultiScreen" folder in "MultiScreen" target */,
+				84CD4E062F1AD1FA00D47735 /* Exceptions for "MultiScreen" folder in "ChargeIt" target */,
 			);
 			path = MultiScreen;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		84CD4DDF2F1AD1F800D47735 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84CD4DDE2F1AD1F800D47735 /* MultiScreen.app */,
-				84CD4DF42F1AD1FA00D47735 /* MultiScreenTests.xctest */,
-				84CD4DFE2F1AD1FA00D47735 /* MultiScreenUITests.xctest */,
+				84CD4DDE2F1AD1F800D47735 /* ChargeIt.app */,
+				84CD4DF42F1AD1FA00D47735 /* ChargeItTests.xctest */,
+				84CD4DFE2F1AD1FA00D47735 /* ChargeItUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84CD4DDD2F1AD1F800D47735 /* MultiScreen */ = {
+		84CD4DDD2F1AD1F800D47735 /* ChargeIt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E072F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreen" */;
+			buildConfigurationList = 84CD4E072F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeIt" */;
 			buildPhases = (
 				84CD4DDA2F1AD1F800D47735 /* Sources */,
 				84CD4DDB2F1AD1F800D47735 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				84CD4DE02F1AD1F800D47735 /* MultiScreen */,
 			);
-			name = MultiScreen;
+			name = ChargeIt;
 			packageProductDependencies = (
 			);
 			productName = MultiScreen;
-			productReference = 84CD4DDE2F1AD1F800D47735 /* MultiScreen.app */;
+			productReference = 84CD4DDE2F1AD1F800D47735 /* ChargeIt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84CD4DF32F1AD1FA00D47735 /* MultiScreenTests */ = {
+		84CD4DF32F1AD1FA00D47735 /* ChargeItTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E0C2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreenTests" */;
+			buildConfigurationList = 84CD4E0C2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeItTests" */;
 			buildPhases = (
 				84CD4DF02F1AD1FA00D47735 /* Sources */,
 				84CD4DF12F1AD1FA00D47735 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				84CD4DF72F1AD1FA00D47735 /* MultiScreenTests */,
 			);
-			name = MultiScreenTests;
+			name = ChargeItTests;
 			packageProductDependencies = (
 			);
 			productName = MultiScreenTests;
-			productReference = 84CD4DF42F1AD1FA00D47735 /* MultiScreenTests.xctest */;
+			productReference = 84CD4DF42F1AD1FA00D47735 /* ChargeItTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84CD4DFD2F1AD1FA00D47735 /* MultiScreenUITests */ = {
+		84CD4DFD2F1AD1FA00D47735 /* ChargeItUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CD4E0F2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreenUITests" */;
+			buildConfigurationList = 84CD4E0F2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeItUITests" */;
 			buildPhases = (
 				84CD4DFA2F1AD1FA00D47735 /* Sources */,
 				84CD4DFB2F1AD1FA00D47735 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				84CD4E012F1AD1FA00D47735 /* MultiScreenUITests */,
 			);
-			name = MultiScreenUITests;
+			name = ChargeItUITests;
 			packageProductDependencies = (
 			);
 			productName = MultiScreenUITests;
-			productReference = 84CD4DFE2F1AD1FA00D47735 /* MultiScreenUITests.xctest */;
+			productReference = 84CD4DFE2F1AD1FA00D47735 /* ChargeItUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84CD4DD92F1AD1F800D47735 /* Build configuration list for PBXProject "MultiScreen" */;
+			buildConfigurationList = 84CD4DD92F1AD1F800D47735 /* Build configuration list for PBXProject "ChargeIt" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84CD4DDD2F1AD1F800D47735 /* MultiScreen */,
-				84CD4DF32F1AD1FA00D47735 /* MultiScreenTests */,
-				84CD4DFD2F1AD1FA00D47735 /* MultiScreenUITests */,
+				84CD4DDD2F1AD1F800D47735 /* ChargeIt */,
+				84CD4DF32F1AD1FA00D47735 /* ChargeItTests */,
+				84CD4DFD2F1AD1FA00D47735 /* ChargeItUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		84CD4DF62F1AD1FA00D47735 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84CD4DDD2F1AD1F800D47735 /* MultiScreen */;
+			target = 84CD4DDD2F1AD1F800D47735 /* ChargeIt */;
 			targetProxy = 84CD4DF52F1AD1FA00D47735 /* PBXContainerItemProxy */;
 		};
 		84CD4E002F1AD1FA00D47735 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84CD4DDD2F1AD1F800D47735 /* MultiScreen */;
+			target = 84CD4DDD2F1AD1F800D47735 /* ChargeIt */;
 			targetProxy = 84CD4DFF2F1AD1FA00D47735 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -480,7 +480,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiScreen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChargeIt";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MultiScreen";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChargeIt";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84CD4DD92F1AD1F800D47735 /* Build configuration list for PBXProject "MultiScreen" */ = {
+		84CD4DD92F1AD1F800D47735 /* Build configuration list for PBXProject "ChargeIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E0A2F1AD1FA00D47735 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E072F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreen" */ = {
+		84CD4E072F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E082F1AD1FA00D47735 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E0C2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreenTests" */ = {
+		84CD4E0C2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeItTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E0D2F1AD1FA00D47735 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CD4E0F2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "MultiScreenUITests" */ = {
+		84CD4E0F2F1AD1FA00D47735 /* Build configuration list for PBXNativeTarget "ChargeItUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84CD4E102F1AD1FA00D47735 /* Debug */,
