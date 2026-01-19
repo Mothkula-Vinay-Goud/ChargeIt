@@ -27,7 +27,7 @@ The application currently implements the complete user interface using Storyboar
 - Filters based on charging power and connector type  
 
 ## Credits
-- Mentored and guided by **Shobhkar Tiwari**
+- Mentored and guided by **Shobhakar Tiwari**
 
 ## Demo
 ![ChargeIt](https://github.com/user-attachments/assets/1ad5e59d-5162-4aab-8abe-bc3459ef91f7)
